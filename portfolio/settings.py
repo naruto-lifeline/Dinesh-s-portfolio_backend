@@ -16,7 +16,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY
 SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-default-key')
 DEBUG = os.getenv("DEBUG", "False") == "True"
-ALLOWED_HOSTS = ["https://dinesh-s-portfolio-backend.onrender.com"]
+ALLOWED_HOSTS = ["dinesh-s-portfolio-backend.onrender.com"]
+
 
 # Application definition
 INSTALLED_APPS = [
